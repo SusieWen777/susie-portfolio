@@ -24,10 +24,10 @@ const textVariants = {
 const sliderVariants = {
   initial: { x: 0 },
   animate: {
-    x: "-220%",
+    x: "-100%",
     transition: {
-      duration: 10,
-      // repeat: Infinity,
+      duration: 20,
+      repeat: Infinity,
       repeatType: "mirror",
     },
   },
@@ -49,7 +49,7 @@ function Hero() {
           </motion.h1>
           <motion.div className="buttons" variants={textVariants}>
             <motion.button variants={textVariants}>
-              See the Latest Works
+              See the Latest Projects
             </motion.button>
             <motion.button variants={textVariants}>Contact Me</motion.button>
           </motion.div>
@@ -63,11 +63,18 @@ function Hero() {
       </div>
       <motion.div
         className="slidingTextContainer"
-        variants={sliderVariants}
-        initial="initial"
-        animate="animate"
+        // variants={sliderVariants}
+        // initial="initial"
+        // animate="animate"
       >
-        Writer Content Creator Influencer
+        <motion.div
+          className="slidingTextWrapper"
+          variants={sliderVariants}
+          initial="initial"
+          animate="animate"
+        >
+          Writer Content Creator Influencer
+        </motion.div>
       </motion.div>
       <div className="imageContainer">
         <img src="/hero.png" alt="" />

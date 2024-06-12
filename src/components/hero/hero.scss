@@ -67,7 +67,13 @@
     color: #ffffff09;
     width: 100%;
     font-weight: bold;
-    // overflow: hidden;
+    overflow: hidden;
+
+    // use it to hide the long sliding text
+    .slidingTextWrapper {
+      display: inline-block;
+      white-space: nowrap;
+    }
   }
 
   .imageContainer {
