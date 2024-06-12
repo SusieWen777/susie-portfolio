@@ -21,7 +21,7 @@ const variants = {
 
 function Aboutme() {
   const ref = useRef();
-  const isInView = useInView(ref, { margin: "-200px" });
+  const isInView = useInView(ref);
 
   return (
     <motion.div

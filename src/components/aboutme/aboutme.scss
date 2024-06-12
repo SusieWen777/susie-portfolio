@@ -9,7 +9,7 @@
   height: 100vh;
 
   @include mobile {
-    gap: 70px;
+    gap: 10%;
   }
 
   .title {
@@ -18,7 +18,7 @@
       color: dimgrey;
 
       @include mobile {
-        font-size: 3rem;
+        font-size: 2.5rem;
       }
 
       span {
@@ -39,6 +39,10 @@
     .imgContainer {
       flex: 1;
 
+      //   @include mobile {
+      //     flex: unset;
+      //   }
+
       .imgWrapper {
         position: relative;
         width: 400px;
@@ -48,8 +52,8 @@
         margin: 0 0 0 auto;
 
         @include mobile {
-          width: 350px;
-          height: 280px;
+          width: 80%;
+          height: 200px;
           margin: auto;
         }
 
@@ -80,6 +84,10 @@
     .textContainer {
       flex: 1.2;
 
+      @include mobile {
+        flex: 2;
+      }
+
       p {
         width: 80%;
         font-size: 1.2rem;
@@ -87,8 +95,8 @@
 
         @include mobile {
           width: 100%;
-          padding: 0 50px;
-          font-size: 1rem;
+          padding: 0 10%;
+          font-size: 0.7rem;
         }
       }
     }
