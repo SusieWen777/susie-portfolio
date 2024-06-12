@@ -16,7 +16,7 @@ const textVariants = {
     y: 10,
     transition: {
       duration: 2,
-      //   repeat: Infinity,
+      repeat: Infinity,
     },
   },
 };

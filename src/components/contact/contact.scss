@@ -1,3 +1,5 @@
+@import "../../app.scss";
+
 .contact {
   height: 100%;
   max-width: 1024px;
@@ -6,11 +8,24 @@
   align-items: center;
   gap: 50px;
 
+  @include mobile {
+    flex-direction: column;
+    gap: 20px;
+    transform: none !important;
+  }
+
   .textContainer {
     flex: 1;
     display: flex;
     flex-direction: column;
     gap: 40px;
+
+    @include mobile {
+      align-items: center;
+      text-align: center;
+      justify-content: center;
+      transform: none !important;
+    }
 
     h1 {
       font-size: 3rem;
@@ -26,17 +41,31 @@
     flex: 1;
     position: relative;
 
+    @include mobile {
+      width: 100%;
+      padding: 40px;
+      transform: none !important;
+    }
+
     .emailSvg {
       position: absolute;
       margin: auto;
       width: 100%;
       z-index: -1;
+
+      @include mobile {
+        display: none;
+      }
     }
 
     form {
       display: flex;
       flex-direction: column;
       gap: 20px;
+
+      @include mobile {
+        transform: none !important;
+      }
 
       input,
       textarea {

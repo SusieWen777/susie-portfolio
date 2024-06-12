@@ -4,7 +4,7 @@ import "./services.scss";
 
 const variants = {
   initial: {
-    x: -500,
+    x: -100,
     y: 100,
     opacity: 0,
   },
@@ -39,6 +39,7 @@ function Services() {
         </p>
         <hr />
       </motion.div>
+
       <motion.div className="titleContainer" variants={variants}>
         <div className="title">
           <img src="/people.webp" alt="" />
@@ -54,6 +55,7 @@ function Services() {
           <button>WHAT WE DO?</button>
         </div>
       </motion.div>
+
       <motion.div className="listContainer" variants={variants}>
         <motion.div
           className="box"
