@@ -15,10 +15,18 @@ const Navbar = () => {
           Susie Dev
         </motion.span>
         <div className="social">
-          <a href="#">
+          <a
+            href="https://www.linkedin.com/in/bufan-wen-a5b81912a/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <img src="/linkedin.png" alt="" />
           </a>
-          <a href="#">
+          <a
+            href="https://github.com/SusieWen777"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <img src="/github.png" alt="" />
           </a>
         </div>

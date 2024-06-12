@@ -10,7 +10,7 @@ const itemVariants = {
   closed: { y: 50, opacity: 0 },
 };
 
-const items = ["Homepage", "Services", "Portfolio", "Contact"];
+const items = ["Homepage", "About Me", "Portfolio", "Contact"];
 
 function Links() {
   return (

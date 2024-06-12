@@ -58,7 +58,7 @@ function Contact() {
       whileInView="animate"
     >
       <motion.div className="textContainer" variants={variants}>
-        <motion.h1 variants={variants}>Let&apos;s Work Together!</motion.h1>
+        <motion.h1 variants={variants}>Get in Touch!</motion.h1>
         <motion.div variants={variants} className="item">
           <h2>Mail</h2>
           <p>wen.bufan11@gmail.com</p>

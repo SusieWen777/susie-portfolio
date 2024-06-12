@@ -1,0 +1,96 @@
+@import "../../app.scss";
+
+.about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 100px;
+  height: 100vh;
+
+  @include mobile {
+    gap: 70px;
+  }
+
+  .title {
+    h1 {
+      font-size: 4rem;
+      color: dimgrey;
+
+      @include mobile {
+        font-size: 3rem;
+      }
+
+      span {
+        color: white;
+      }
+    }
+  }
+
+  .content {
+    display: flex;
+    gap: 100px;
+
+    @include mobile {
+      flex-direction: column;
+      gap: 50px;
+    }
+
+    .imgContainer {
+      flex: 1;
+
+      .imgWrapper {
+        position: relative;
+        width: 400px;
+        height: 350px;
+        border-radius: 10px;
+        overflow: hidden;
+        margin: 0 0 0 auto;
+
+        @include mobile {
+          width: 350px;
+          height: 280px;
+          margin: auto;
+        }
+
+        img {
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+          margin: auto;
+        }
+
+        &::after {
+          content: "";
+          position: absolute;
+          top: 80%;
+          left: 0;
+          width: 100%;
+          height: 20%;
+          background: linear-gradient(
+            to bottom,
+            rgba(255, 255, 255, 0) 0%,
+            #0c0c1d 100%
+          );
+          pointer-events: none;
+        }
+      }
+    }
+
+    .textContainer {
+      flex: 1.2;
+
+      p {
+        width: 80%;
+        font-size: 1.2rem;
+        font-weight: 200;
+
+        @include mobile {
+          width: 100%;
+          padding: 0 50px;
+          font-size: 1rem;
+        }
+      }
+    }
+  }
+}
