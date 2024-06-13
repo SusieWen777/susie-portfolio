@@ -41,3 +41,9 @@ section {
     @content;
   }
 }
+
+#skills {
+  @include mobile {
+    height: 1400px;
+  }
+}

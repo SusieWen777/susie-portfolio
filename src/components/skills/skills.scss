@@ -1,0 +1,112 @@
+@import "../../app.scss";
+
+.skills {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  background: linear-gradient(180deg, #0c0c1d, #111132);
+
+  .wrapper {
+    max-width: 1024px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    gap: 12px;
+
+    h1 {
+      font-size: 42px;
+      font-weight: 600;
+      text-align: center;
+      margin-top: 20px;
+
+      @include mobile {
+        font-size: 32px;
+        margin-top: 12px;
+      }
+    }
+
+    p {
+      font-size: 18px;
+      max-width: 600px;
+      text-align: center;
+      color: dimgrey;
+
+      @include mobile {
+        font-size: 16px;
+      }
+    }
+
+    .skillContainer {
+      width: 100%;
+      display: flex;
+      flex-wrap: wrap;
+      margin-top: 30px;
+      justify-content: center;
+      gap: 30px;
+
+      .skillList {
+        width: 100%;
+        max-width: 480px;
+        border: 0.1px solid white;
+        border-radius: 16px;
+        padding: 16px;
+        background-color: #0c0c1d;
+
+        @include mobile {
+          max-width: 330px;
+          padding: 10px 36px;
+        }
+
+        h2 {
+          font-size: 20px;
+          font-weight: 600;
+          color: orange;
+          margin-bottom: 20px;
+          text-align: center;
+        }
+
+        .listContent {
+          display: flex;
+          justify-content: center;
+          flex-wrap: wrap;
+          gap: 12px;
+          margin-bottom: 20px;
+
+          .skillItem {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            justify-content: center;
+            font-size: 16px;
+            color: dimgrey;
+            border-radius: 12px;
+            border: 1px solid dimgrey;
+            padding: 8px 12px;
+            font-weight: 400;
+
+            @include mobile {
+              font-size: 14px;
+              padding: 6px 12px;
+            }
+
+            img {
+              width: 18px;
+              height: 18px;
+            }
+
+            p {
+              font-size: 12px;
+              font-weight: 300;
+            }
+          }
+        }
+      }
+    }
+  }
+}

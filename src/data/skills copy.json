@@ -1,0 +1,54 @@
+[
+  {
+    "title": "Frontend",
+    "skills": [
+      {
+        "id": 1,
+        "name": "HTML",
+        "icon": "/reactjs.png",
+        "color": "orange"
+      },
+      { "id": 2, "name": "CSS", "image": "/css-3.png" },
+      { "id": 3, "name": "JavaScript", "image": "/reactjs.png" },
+      { "id": 4, "name": "TypeScript", "image": "/reactjs.png" },
+      { "id": 5, "name": "React Js", "image": "/reactjs.png" },
+      { "id": 6, "name": "TailwindCSS", "image": "/reactjs.png" },
+      { "id": 7, "name": "Bootstrap", "image": "/reactjs.png" },
+      { "id": 8, "name": "Shadcn/ui", "image": "/reactjs.png" },
+      { "id": 9, "name": "Framer Motion", "image": "/reactjs.png" },
+      { "id": 10, "name": "Redux Toolkit", "image": "/reactjs.png" }
+    ]
+  },
+  {
+    "title": "Backend",
+    "skills": [
+      { "id": 1, "name": "Node Js", "image": "/reactjs.png" },
+      { "id": 2, "name": "Express Js", "image": "/reactjs.png" },
+      { "id": 3, "name": "Python", "image": "/reactjs.png" },
+      { "id": 4, "name": "Java", "image": "/reactjs.png" },
+      { "id": 5, "name": "Postgresql", "image": "/reactjs.png" },
+      { "id": 6, "name": "MongoDB", "image": "/reactjs.png" },
+      { "id": 7, "name": "Firebase", "image": "/reactjs.png" },
+      { "id": 8, "name": "REST API", "image": "/reactjs.png" }
+    ]
+  },
+  {
+    "title": "Others",
+    "skills": [
+      { "id": 1, "name": "AWS", "image": "/reactjs.png" },
+      { "id": 2, "name": "Docker", "image": "/reactjs.png" },
+      { "id": 3, "name": "Git", "image": "/reactjs.png" },
+      { "id": 4, "name": "Postman", "image": "/reactjs.png" },
+      { "id": 5, "name": "VS Code", "image": "/reactjs.png" },
+      { "id": 6, "name": "Android Studio", "image": "/reactjs.png" }
+    ]
+  },
+  {
+    "title": "Design",
+    "skills": [
+      { "id": 1, "name": "Figma", "image": "/reactjs.png" },
+      { "id": 2, "name": "Adobe PS", "image": "/reactjs.png" },
+      { "id": 3, "name": "Adobe AI", "image": "/reactjs.png" }
+    ]
+  }
+]

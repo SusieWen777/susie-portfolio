@@ -1,0 +1,157 @@
+[
+  {
+    "title": "Frontend",
+    "skills": [
+      {
+        "id": 1,
+        "name": "HTML5",
+        "color": "#E34F26"
+      },
+      {
+        "id": 2,
+        "name": "CSS3",
+        "color": "#1572B6"
+      },
+      {
+        "id": 3,
+        "name": "JavaScript",
+        "color": "#F7DF1E"
+      },
+      {
+        "id": 4,
+        "name": "TypeScript",
+        "color": "#3178C6"
+      },
+      {
+        "id": 5,
+        "name": "ReactJs",
+        "color": "#61DAFB"
+      },
+      {
+        "id": 6,
+        "name": "TailwindCSS",
+        "color": "#38B2AC"
+      },
+      {
+        "id": 7,
+        "name": "Bootstrap",
+        "color": "#7952B3"
+      },
+      {
+        "id": 8,
+        "name": "ShadcnUi",
+        "color": "white"
+      },
+      {
+        "id": 9,
+        "name": "FramerMotion",
+        "color": "#bc4c94"
+      },
+      {
+        "id": 10,
+        "name": "ReduxToolkit",
+        "color": "#764ABC"
+      }
+    ]
+  },
+  {
+    "title": "Backend",
+    "skills": [
+      {
+        "id": 1,
+        "name": "NodeJs",
+        "color": "#339933"
+      },
+      {
+        "id": 2,
+        "name": "ExpressJs",
+        "color": "white"
+      },
+      {
+        "id": 3,
+        "name": "Python",
+        "color": "#3776AB"
+      },
+      {
+        "id": 4,
+        "name": "Java",
+        "color": "#007396"
+      },
+      {
+        "id": 5,
+        "name": "Postgresql",
+        "color": "#336791"
+      },
+      {
+        "id": 6,
+        "name": "MongoDB",
+        "color": "#47A248"
+      },
+      {
+        "id": 7,
+        "name": "Firebase",
+        "color": "#FFCA28"
+      },
+      {
+        "id": 8,
+        "name": "RestAPI",
+        "image": "/restapi.png"
+      }
+    ]
+  },
+  {
+    "title": "Others",
+    "skills": [
+      {
+        "id": 1,
+        "name": "AWS",
+        "color": "#FF9900"
+      },
+      {
+        "id": 2,
+        "name": "Docker",
+        "color": "#2496ED"
+      },
+      {
+        "id": 3,
+        "name": "Git",
+        "color": "#F05032"
+      },
+      {
+        "id": 4,
+        "name": "Postman",
+        "color": "#FF6C37"
+      },
+      {
+        "id": 5,
+        "name": "VSCode",
+        "color": "#007ACC"
+      },
+      {
+        "id": 6,
+        "name": "AndroidStudio",
+        "color": "#3DDC84"
+      }
+    ]
+  },
+  {
+    "title": "Design",
+    "skills": [
+      {
+        "id": 1,
+        "name": "Figma",
+        "color": "#F24E1E"
+      },
+      {
+        "id": 2,
+        "name": "AdobePS",
+        "color": "#31A8FF"
+      },
+      {
+        "id": 3,
+        "name": "AdobeAI",
+        "color": "#FF9A00"
+      }
+    ]
+  }
+]

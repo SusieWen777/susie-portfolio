@@ -29,7 +29,7 @@
 
   .content {
     display: flex;
-    gap: 100px;
+    gap: 80px;
 
     @include mobile {
       flex-direction: column;
@@ -39,14 +39,10 @@
     .imgContainer {
       flex: 1;
 
-      //   @include mobile {
-      //     flex: unset;
-      //   }
-
       .imgWrapper {
         position: relative;
         width: 400px;
-        height: 350px;
+        height: 300px;
         border-radius: 10px;
         overflow: hidden;
         margin: 0 0 0 auto;
@@ -90,8 +86,9 @@
 
       p {
         width: 80%;
-        font-size: 1.2rem;
+        font-size: 1rem;
         font-weight: 200;
+        // color: grey;
 
         @include mobile {
           width: 100%;

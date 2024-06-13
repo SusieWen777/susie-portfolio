@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "title": "Career Match",
+    "img": "https://images.pexels.com/photos/20717262/pexels-photo-20717262/free-photo-of-radiant-reverie-capturing-the-spirit-within-abstract-photography.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+  },
+  {
+    "id": 2,
+    "title": "Hotel Internal",
+    "img": "https://images.pexels.com/photos/25626514/pexels-photo-25626514/free-photo-of-root-node-problems.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+  },
+  {
+    "id": 3,
+    "title": "Pizza Order",
+    "img": "https://images.pexels.com/photos/25772368/pexels-photo-25772368/free-photo-of-piazza-san-marco.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+  },
+  {
+    "id": 4,
+    "title": "Charming Critters of Australia",
+    "img": "/charming.png",
+    "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+  }
+]
