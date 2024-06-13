@@ -1,5 +1,5 @@
 import "./skills.scss";
-import { motion } from "framer-motion";
+import { motion, useInView } from "framer-motion";
 import data from "../../data/skills.json";
 import {
   FaHtml5,
@@ -31,6 +31,7 @@ import {
   SiShadcnui,
 } from "react-icons/si";
 import { TbBrandFramerMotion } from "react-icons/tb";
+import { useRef } from "react";
 
 const iconMap = {
   HTML5: FaHtml5,
@@ -61,24 +62,36 @@ const iconMap = {
   ShadcnUi: SiShadcnui,
 };
 
+const variants = {
+  initial: {
+    x: 100,
+    y: 100,
+    opacity: 0,
+  },
+  animate: {
+    x: 0,
+    y: 0,
+    opacity: 1,
+    transition: {
+      duration: 1,
+      staggerChildren: 0.5,
+    },
+  },
+};
+
 function SkillList({ list }) {
   return (
     <motion.div
       className="skillList"
       whileHover={{
-        scale: 1.1,
-        rotateX: 5,
-        rotateY: 25,
+        scale: 1.05,
         transition: {
           duration: 0.3,
           type: "spring",
           stiffness: 300,
         },
       }}
-      style={{
-        perspective: 1000,
-        transformStyle: "preserve-3d",
-      }}
+      variants={variants}
     >
       <h2>{list.title}</h2>
       <div className="listContent">
@@ -107,21 +120,30 @@ function SkillItem({ item }) {
 }
 
 function Skills() {
+  const ref = useRef();
+  const isInView = useInView(ref);
+
   return (
-    <div className="skills">
-      <div className="wrapper">
-        <h1>Skills</h1>
-        <p>
+    <motion.div
+      className="skills"
+      ref={ref}
+      variants={variants}
+      initial="initial"
+      animate={isInView && "animate"}
+    >
+      <motion.div className="wrapper" variants={variants}>
+        <motion.h1 variants={variants}>Skills</motion.h1>
+        <motion.p variants={variants}>
           Here are some of my skills on which I have been working on for the
           past two years.
-        </p>
-        <div className="skillContainer">
+        </motion.p>
+        <motion.div className="skillContainer" variants={variants}>
           {data.map((list) => (
             <SkillList key={list.title} list={list} />
           ))}
-        </div>
-      </div>
-    </div>
+        </motion.div>
+      </motion.div>
+    </motion.div>
   );
 }
 

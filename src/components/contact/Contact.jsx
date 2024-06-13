@@ -73,7 +73,7 @@ function Contact() {
           className="emailSvg"
           initial={{ opacity: 1 }}
           whileInView={{ opacity: 0 }}
-          transition={{ delay: 3, duration: 1 }}
+          transition={{ delay: 1, duration: 1 }}
         >
           <svg viewBox="0 0 24 24">
             <motion.path
@@ -82,7 +82,7 @@ function Contact() {
               initial={{ pathLength: 0 }}
               //   animate={isInView && { pathLength: 1 }}
               whileInView={{ pathLength: 1 }}
-              transition={{ duration: 3 }}
+              transition={{ duration: 2 }}
               d="M3.75 5.25L3 6V18L3.75 18.75H20.25L21 18V6L20.25 5.25H3.75ZM4.5 7.6955V17.25H19.5V7.69525L11.9999 14.5136L4.5 7.6955ZM18.3099 6.75H5.68986L11.9999 12.4864L18.3099 6.75Z"
               stroke="orange"
             />
@@ -93,7 +93,7 @@ function Contact() {
           ref={formRef}
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
-          transition={{ delay: 4, duration: 1 }}
+          transition={{ delay: 2, duration: 1 }}
         >
           <input type="text" placeholder="Name" name="name" required />
           <input type="email" placeholder="Email" name="email" required />
