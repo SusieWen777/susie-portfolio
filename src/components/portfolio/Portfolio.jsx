@@ -47,8 +47,20 @@ const Single = ({ item }) => {
           </div>
           <motion.div className="textContainer" style={{ y }}>
             <h2>{item.title}</h2>
+            <div className="tags">
+              {item.techStack.map((tag) => (
+                <span key={tag}>{tag}</span>
+              ))}
+            </div>
             <p>{item.desc}</p>
-            <button>See Demo</button>
+            <div className="buttons">
+              <a href={item.demo} target="_blank" rel="noopener noreferrer">
+                <button className="demoBtn">View Demo</button>
+              </a>
+              <a href={item.code} target="_blank" rel="noopener noreferrer">
+                <button className="codeBtn">View Code</button>
+              </a>
+            </div>
           </motion.div>
         </div>
       </div>

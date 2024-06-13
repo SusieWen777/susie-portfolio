@@ -2,25 +2,37 @@
   {
     "id": 1,
     "title": "Career Match",
-    "img": "https://images.pexels.com/photos/20717262/pexels-photo-20717262/free-photo-of-radiant-reverie-capturing-the-spirit-within-abstract-photography.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-    "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+    "img": "/career-match.png",
+    "techStack": ["React Js", "TypeScript", "TailwindCSS", "Shadcn/ui"],
+    "desc": "CareerMatch is an advanced platform that uses cutting-edge AI technology and data-driven insights for intelligent job matching. With a sleek, user-friendly interface, CareerMatch simplifies the job search process, making it effective and enjoyable.",
+    "demo": "https://youtu.be/UX8LrzMz5IY",
+    "code": "https://gitlab.com/yupeiyuan0108/career-match-vite-fastapi"
   },
   {
     "id": 2,
     "title": "Hotel Internal",
-    "img": "https://images.pexels.com/photos/25626514/pexels-photo-25626514/free-photo-of-root-node-problems.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-    "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+    "img": "/hotel-internal.png",
+    "techStack": ["React Js", "styled components", "Supabase", "React Query"],
+    "desc": "The Hotel Internal App streamlines hotel operations. Employees can manage cabins and bookings, handle check-ins and check-outs, and confirm payments. The app features secure authentication, profile updates, a dashboard with booking and sales statistics, and settings management for breakfast prices and booking limits. (Login credentials available upon request.)",
+    "demo": "https://susiewen-hotel-internal.netlify.app/",
+    "code": "https://github.com/SusieWen777/hotel-internal"
   },
   {
     "id": 3,
     "title": "Pizza Order",
-    "img": "https://images.pexels.com/photos/25772368/pexels-photo-25772368/free-photo-of-piazza-san-marco.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-    "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+    "img": "/pizza-order.png",
+    "techStack": ["React Js", "Redux Toolkit", "TailwindCSS"],
+    "desc": "The Pizza Order Website lets users order pizzas without an account. They can browse a dynamic menu, add pizzas to a cart, and place orders with their name, phone number, and address. Users can mark orders as 'priority' for an extra fee and provide GPS for easier delivery. Payments are made on delivery, and each order gets a unique ID for tracking.",
+    "demo": "https://susiewen-pizza-order.netlify.app/",
+    "code": "https://github.com/SusieWen777/pizza-order"
   },
   {
     "id": 4,
     "title": "Charming Critters of Australia",
     "img": "/charming.png",
-    "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+    "techStack": ["HTML", "CSS", "JavaScript"],
+    "desc": "Charming Critters of Australia is a heartfelt project dedicated to showcasing the endearing side of Australia's wildlife. the site features captivating stories of blue-tongues, kangaroos and etc. Through engaging articles, a YouTube channel, and an interactive game, the site aims to bridge the gap between fast-paced human lives and the sweet simplicity of nature. ",
+    "demo": "#",
+    "code": "#"
   }
 ]

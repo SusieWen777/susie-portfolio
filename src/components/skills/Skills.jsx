@@ -83,15 +83,16 @@ function SkillList({ list }) {
   return (
     <motion.div
       className="skillList"
+      variants={variants}
+      initial={{ y: 0 }}
+      animate={{ y: 0 }}
       whileHover={{
-        scale: 1.05,
+        y: -20,
         transition: {
           duration: 0.3,
-          type: "spring",
           stiffness: 300,
         },
       }}
-      variants={variants}
     >
       <h2>{list.title}</h2>
       <div className="listContent">
@@ -107,7 +108,17 @@ function SkillItem({ item }) {
   const IconComponent = iconMap[item.name];
 
   return (
-    <div className="skillItem">
+    <motion.div
+      className="skillItem"
+      whileHover={{
+        scale: 1.1,
+        transition: {
+          duration: 0.3,
+          type: "spring",
+          stiffness: 300,
+        },
+      }}
+    >
       {IconComponent ? (
         <IconComponent color={item.color} size={"20px"} />
       ) : (
@@ -115,7 +126,7 @@ function SkillItem({ item }) {
       )}
 
       <p>{item.name}</p>
-    </div>
+    </motion.div>
   );
 }
 

@@ -43,6 +43,10 @@ section {
 }
 
 #skills {
+  @include tablet {
+    height: 1200px;
+  }
+
   @include mobile {
     height: 1400px;
   }
