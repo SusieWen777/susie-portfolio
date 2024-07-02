@@ -4,9 +4,9 @@
     "title": "Susie Food",
     "img": "/susiefood.png",
     "techStack": ["React Js", "Node Js", "Express Js", "MongoDB", "Stripe"],
-    "desc": "Susie Food is a full-stack food delivery website. The Client allows users to register, log in, manage carts, pay online, and track orders. The Admin portal handles menu and order management and the Server provides APIs for seamless data processing. (Please refresh the website to active the server when it is in sleep mode. Login credentials for admin panel available upon request.)",
+    "desc": "Susie Food is a full-stack food delivery website. The Client allows users to register, log in, manage carts, pay online, and track orders. The Admin portal handles menu and order management and the Server provides APIs for seamless data processing. (Please refresh the website to active the server if no images show up. Login credentials for admin panel available upon request.)",
     "website": "https://susie-food-frontend.onrender.com/",
-    "admin": "https://susie-food-frontend.onrender.com/",
+    "admin": "https://susie-food-admin.onrender.com/",
     "code": "https://github.com/SusieWen777/susie-food"
   },
   {
