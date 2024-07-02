@@ -61,14 +61,14 @@ const Single = ({ item }) => {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <button className="demoBtn">Website</button>
+                    <button className="demoBtn smallBtn">Website</button>
                   </a>
                   <a
                     href={item.admin}
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <button className="demoBtn">Admin Panel</button>
+                    <button className="demoBtn smallBtn">Admin</button>
                   </a>
                 </>
               ) : (
