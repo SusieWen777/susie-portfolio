@@ -54,9 +54,28 @@ const Single = ({ item }) => {
             </div>
             <p>{item.desc}</p>
             <div className="buttons">
-              <a href={item.demo} target="_blank" rel="noopener noreferrer">
-                <button className="demoBtn">View Demo</button>
-              </a>
+              {item.title === "Susie Food" ? (
+                <>
+                  <a
+                    href={item.website}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <button className="demoBtn">Website</button>
+                  </a>
+                  <a
+                    href={item.admin}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <button className="demoBtn">Admin Panel</button>
+                  </a>
+                </>
+              ) : (
+                <a href={item.demo} target="_blank" rel="noopener noreferrer">
+                  <button className="demoBtn">View Demo</button>
+                </a>
+              )}
               <a href={item.code} target="_blank" rel="noopener noreferrer">
                 <button className="codeBtn">View Code</button>
               </a>

@@ -45,7 +45,7 @@ function Hero() {
         >
           <motion.h2 variants={textVariants}>BUFAN WEN</motion.h2>
           <motion.h1 variants={textVariants}>
-            Web developer and Software Engineer
+            Full Stack Web Developer
           </motion.h1>
           <motion.div className="buttons" variants={textVariants}>
             <motion.button variants={textVariants}>
