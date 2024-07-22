@@ -12,7 +12,7 @@ const Navbar = () => {
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.5 }}
         >
-          Susie Dev
+          Susie Portfolio
         </motion.span>
         <div className="social">
           <a
