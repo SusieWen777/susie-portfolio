@@ -20,7 +20,6 @@ import {
   SiBootstrap,
   SiMongodb,
   SiPostgresql,
-  SiFirebase,
   SiRedux,
   SiAdobephotoshop,
   SiAdobeillustrator,
@@ -29,8 +28,11 @@ import {
   SiVisualstudiocode,
   SiExpress,
   SiShadcnui,
+  SiSupabase,
+  SiPrisma,
+  SiClerk,
 } from "react-icons/si";
-import { TbBrandFramerMotion } from "react-icons/tb";
+import { TbBrandFramerMotion, TbBrandNextjs } from "react-icons/tb";
 import { useRef } from "react";
 
 const iconMap = {
@@ -47,19 +49,22 @@ const iconMap = {
   Java: FaJava,
   Postgresql: SiPostgresql,
   MongoDB: SiMongodb,
-  Firebase: SiFirebase,
+  Supabase: SiSupabase,
   AWS: FaAws,
   Docker: FaDocker,
   Git: FaGit,
   Figma: FaFigma,
-  AdobePS: SiAdobephotoshop,
-  AdobeAI: SiAdobeillustrator,
+  Photoshop: SiAdobephotoshop,
+  AdobeIllustrator: SiAdobeillustrator,
   AndroidStudio: SiAndroidstudio,
   Postman: SiPostman,
   VSCode: SiVisualstudiocode,
   FramerMotion: TbBrandFramerMotion,
   ExpressJs: SiExpress,
   ShadcnUi: SiShadcnui,
+  Prisma: SiPrisma,
+  NextJs: TbBrandNextjs,
+  Clerk: SiClerk,
 };
 
 const variants = {
@@ -159,4 +164,3 @@ function Skills() {
 }
 
 export default Skills;
-Skills;

@@ -45,18 +45,25 @@ function Aboutme() {
         </motion.div>
         <motion.div className="textContainer" variants={variants}>
           <p>
-            I am a highly motivated and collaborative software engineer with a
-            strong background in web development. Skilled in JavaScript, Python,
+            Hi, I am Bufan 😜, a software engineer with a strong background in
+            web development. Skilled in JavaScript, TypeScript, ReactJs, NextJs
             and various front-end and back-end technologies, I am passionate
-            about delivering efficient and user-friendly applications. My
-            professional experience includes leading development teams, managing
-            full-stack applications, and applying advanced analytical methods to
-            solve complex problems. I hold a Master&apos;s degree in Computing
-            from the Australian National University and have a proven track
-            record in both educational and corporate environments. Outside of
-            work, I am an avid outdoor enthusiast who loves hiking, kayaking,
-            and rock climbing.
+            about delivering efficient and user-friendly applications 👩🏻‍💻.
           </p>
+          <p>
+            As an ESFJ 🌞 personality type, I thrive in team environments and
+            pay great attention to detail. My professional experience includes
+            leading development teams, managing full-stack applications, and
+            applying advanced analytical methods to solve complex problems.
+          </p>
+          <p>
+            I hold a Master&apos;s degree in Computing from the Australian
+            National University 👩‍🎓 and have a proven track record in both
+            educational and corporate environments. Outside of work, I am an
+            avid outdoor enthusiast who loves hiking 🏔, kayaking 🚣‍♀️, and rock
+            climbing 🧗‍♀️.
+          </p>
+          <p>Happy to connect with you and work together! 🎉</p>
         </motion.div>
       </motion.div>
     </motion.div>

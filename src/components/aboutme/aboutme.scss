@@ -79,6 +79,9 @@
 
     .textContainer {
       flex: 1.2;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
 
       @include mobile {
         flex: 2;
